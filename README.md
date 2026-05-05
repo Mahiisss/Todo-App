@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# Todo App — React Native + Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Preview
 
-## Get started
+![Todo App Screenshot](assets/screenshots/SS.jpeg)
 
-1. Install dependencies
+A cross-platform Todo mobile application built using React Native and Expo. The app allows users to manage daily tasks with editing, filtering, sorting, and persistent local storage.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Features
 
-   ```bash
-   npx expo start
-   ```
+* Add tasks with date
+* Mark tasks as completed
+* Edit tasks inline
+* Delete tasks
+* Filter tasks (All / Completed / Pending)
+* Clear all completed tasks
+* Date picker integration
+* Sort tasks by date (Oldest / Newest)
+* Highlight overdue and today’s tasks
+* Task statistics (Total & Completed)
+* Persistent storage using AsyncStorage
+* Clean and responsive mobile UI
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* React Native
+* Expo
+* TypeScript
+* AsyncStorage
+* Expo EAS
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Installation & Setup
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/todo-app
+cd todo-app
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Running the App
 
-To learn more about developing your project with Expo, look at the following resources:
+### Using Expo Go
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Install Expo Go
+2. Run:
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+3. Scan the QR code
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Android APK
+
+To generate an APK:
+
+```bash
+eas build -p android --profile preview
+```
+
+After the build completes:
+
+* Download APK from Expo dashboard
+* Install it on your Android device
+
+---
+
+## Key Concepts Used
+
+* React Hooks (useState, useEffect)
+* State-driven UI updates
+* Conditional rendering
+* Array operations (map, filter, sort)
+* Local storage handling
+* Cross-platform mobile development
+
+---
+
+## Learning Outcome
+
+This project demonstrates building a complete mobile application using React Native, including task management, state handling, persistent storage, and APK deployment using Expo EAS.
+
+---
+
+## Future Improvements
+
+* Search functionality
+* Priority-based tasks
+* Cloud sync (Firebase)
+* Notifications/reminders
+
+---
+
+## Author
+
+Mahi
