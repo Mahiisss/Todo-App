@@ -1,10 +1,14 @@
 # Todo App — React Native + Expo
 
+## Live Demo
+
+APK available via Expo EAS build (see installation section)
+
 ## Preview
 
 ![Todo App Screenshot](assets/screenshots/SS.jpeg)
 
-A cross-platform Todo mobile application built using React Native and Expo. The app allows users to manage daily tasks with editing, filtering, sorting, and persistent local storage.
+A cross-platform Todo mobile application built using React Native and Expo. The app enables efficient task management with features like editing, filtering, sorting, and persistent local storage.
 
 ---
 
@@ -38,8 +42,8 @@ A cross-platform Todo mobile application built using React Native and Expo. The 
 ## Installation & Setup
 
 ```bash
-git clone https://github.com/your-username/todo-app
-cd todo-app
+git clone https://github.com/Mahiisss/Todo-App.git
+cd Todo-App
 npm install
 npx expo start
 ```
@@ -50,7 +54,7 @@ npx expo start
 
 ### Using Expo Go
 
-1. Install Expo Go
+1. Install Expo Go (Android / iOS)
 2. Run:
 
 ```bash
