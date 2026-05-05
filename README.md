@@ -1,45 +1,49 @@
-# Todo App — React Native + Expo
+# ✅ Todo App
 
-## Live Demo
-
-APK available via Expo EAS build (see installation section)
-
-## Preview
-
-![Todo App Screenshot](assets/screenshots/SS.jpeg)
-
-A cross-platform Todo mobile application built using React Native and Expo. The app enables efficient task management with features like editing, filtering, sorting, and persistent local storage.
+A clean, feature-rich cross-platform Todo application built with **React Native** and **Expo**. Manage your tasks efficiently with filtering, sorting, persistent storage, and a polished mobile UI.
 
 ---
 
-## Features
+## 📱 Preview
 
-* Add tasks with date
-* Mark tasks as completed
-* Edit tasks inline
-* Delete tasks
-* Filter tasks (All / Completed / Pending)
-* Clear all completed tasks
-* Date picker integration
-* Sort tasks by date (Oldest / Newest)
-* Highlight overdue and today’s tasks
-* Task statistics (Total & Completed)
-* Persistent storage using AsyncStorage
-* Clean and responsive mobile UI
+![Todo App Screenshot](assets/screenshot.png)
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-* React Native
-* Expo
-* TypeScript
-* AsyncStorage
-* Expo EAS
+- **Add tasks** with a date picker
+- **Edit tasks** inline without leaving the screen
+- **Mark tasks** as completed / pending
+- **Delete tasks** individually or clear all completed at once
+- **Filter tasks** — All / Completed / Pending
+- **Sort tasks** — Oldest or Newest first
+- **Highlight** overdue and today's tasks automatically
+- **Task statistics** — Total count and completion progress
+- **Persistent storage** — All tasks saved locally with AsyncStorage
 
 ---
 
-## Installation & Setup
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React Native | Cross-platform mobile framework |
+| Expo | Build tooling & dev experience |
+| TypeScript | Type-safe development |
+| AsyncStorage | Local persistent storage |
+| Expo EAS | APK/IPA build & distribution |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- Expo CLI
+- Expo Go app (for device preview)
+
+### Installation
 
 ```bash
 git clone https://github.com/Mahiisss/Todo-App.git
@@ -48,62 +52,59 @@ npm install
 npx expo start
 ```
 
----
+### Running on Device (Expo Go)
 
-## Running the App
+1. Install **Expo Go** on [Android](https://play.google.com/store/apps/details?id=host.exp.exponent) or [iOS](https://apps.apple.com/app/expo-go/id982107779)
+2. Run `npx expo start`
+3. Scan the QR code shown in the terminal
 
-### Using Expo Go
-
-1. Install Expo Go (Android / iOS)
-2. Run:
-
-```bash
-npx expo start
-```
-
-3. Scan the QR code
-
-### Android APK
-
-To generate an APK:
+### Building an Android APK
 
 ```bash
 eas build -p android --profile preview
 ```
 
-After the build completes:
-
-* Download APK from Expo dashboard
-* Install it on your Android device
+After the build completes, download the APK from your [Expo dashboard](https://expo.dev) and install it directly on your Android device.
 
 ---
 
-## Key Concepts Used
+## 📁 Project Structure
 
-* React Hooks (useState, useEffect)
-* State-driven UI updates
-* Conditional rendering
-* Array operations (map, filter, sort)
-* Local storage handling
-* Cross-platform mobile development
-
----
-
-## Learning Outcome
-
-This project demonstrates building a complete mobile application using React Native, including task management, state handling, persistent storage, and APK deployment using Expo EAS.
+```
+Todo-App/
+├── app/          # Screens and navigation
+├── components/   # Reusable UI components
+├── assets/       # Images and fonts
+├── constants/    # App-wide constants
+├── hooks/        # Custom React hooks
+└── scripts/      # Build and utility scripts
+```
 
 ---
 
-## Future Improvements
+## 🧠 Key Concepts
 
-* Search functionality
-* Priority-based tasks
-* Cloud sync (Firebase)
-* Notifications/reminders
+- `useState` & `useEffect` for state management and lifecycle
+- Conditional rendering and dynamic styling
+- Array operations — map, filter, sort
+- AsyncStorage for data persistence across sessions
+- Cross-platform mobile UI design
 
 ---
 
-## Author
+## 🔮 Planned Improvements
 
-Mahi
+- [ ] Search / filter by keyword
+- [ ] Priority levels (High / Medium / Low)
+- [ ] Cloud sync with Firebase
+- [ ] Push notifications and reminders
+
+---
+
+## 👤 Author
+
+**Mahi** — [@Mahiisss](https://github.com/Mahiisss)
+
+---
+
+
