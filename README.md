@@ -6,7 +6,7 @@ A clean, feature-rich cross-platform Todo application built with **React Native*
 
 ## 📱 Preview
 
-![Todo App Screenshot](assets/screenshot.png)
+![Todo App Screenshot](assets/screenshots/SS.jpeg)
 
 ---
 
